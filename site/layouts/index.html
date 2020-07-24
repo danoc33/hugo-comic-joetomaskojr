@@ -1,13 +1,26 @@
-{{ define "main" }}
+<!-- inject:../components/baseHead/baseHeadStart.html -->
+<!DOCTYPE html>
+<html lang="en">
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+<head>
 
-{{ partial "short-text" .Params.blurb}}
+    {{ partial "head.html" . }}
 
-{{ partial "2-up" .Params }}
+    {{ partial "head_custom.html" . }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+</head>
 
-{{ partial "blog" . }}
+<body>
 
-{{ end }}
+	{{ partial "header.html" . }}
+
+	{{ range .Site.Params.sections }}
+	{{ partial . $ }}
+	{{ end }}
+
+	{{ partial "footer.html" . }}
+    {{ partial "base-foot.html" . }}
+</body>
+
+</html>
+<!-- endinject -->

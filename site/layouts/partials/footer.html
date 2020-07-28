@@ -1,0 +1,69 @@
+<footer>
+	<div class="social-media">
+		<h3>Follow Me</h3>
+		<ul>
+			{{ partial "social-icon" (dict "link" "https://instagram.com/ghostcat" "service" "instagram" "icon" "fab fa-instagram") }}
+			{{ partial "social-icon" (dict "link" "https://twitter.com/clayyount" "service" "twitter" "icon" "fab fa-twitter") }}
+			{{ partial "social-icon" (dict "link" "https://www.facebook.com/hamletsdanish" "service" "facebook" "icon" "fab fa-facebook-f") }}
+			<!--{{ partial "social-icon" (dict "link" "http://feeds.feedburner.com/HamletsDanishNetlify" "service" "rss" "icon" "fas fa-rss") }}
+			-->
+		</ul>
+	</div>
+	<div class="copyright">
+		&copy; {{ now.Format "2006"}} Clay Yount, all rights reserved.
+	</div>
+</footer>
+<script src="/app.js"></script>
+</body>
+<script>
+	document.getElementById("mobile-menu-btn").addEventListener("click", function(){
+		if(document.getElementsByTagName("html")[0].classList.contains("menu-open")){
+			document.getElementsByTagName("html")[0].classList.remove("menu-open");
+		}else{
+			document.getElementsByTagName("html")[0].classList.add("menu-open");
+		}
+	});
+	var dropdowns = document.getElementsByClassName("dropdown");
+	for(var i=0; i<dropdowns.length; i++){
+		dropdowns[i].addEventListener("click", function(){
+			if(this.classList.contains("open")){
+				this.classList.remove("open");
+			}else{
+
+				for(var j=0; j<dropdowns.length; j++){
+					dropdowns[j].classList.remove("open")
+				}
+				this.classList.add("open");
+
+			}
+		})
+	}
+	$(document).ready(function(){
+		$("pre").click(function(){
+			if (this.select) {
+				this.select();
+			}
+			else if (document.selection) {
+				var range = document.body.createTextRange();
+				range.moveToElementText(this);
+				range.select();
+			} else if (window.getSelection) {
+				var range = document.createRange();
+				range.selectNode(this);
+				window.getSelection().addRange(range);
+			}
+		})
+	})
+
+	
+</script>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-36385789-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-36385789-1');
+</script>
+</html>

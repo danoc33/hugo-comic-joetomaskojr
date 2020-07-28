@@ -7,4 +7,4 @@ I'm a normal dude by day but also an aspiring artist by night. I've read a lot o
 
 ## ABOUT THE WEBSITE
 
-I built this website with Hugo on Netlify, with the help/inspiration from Clay Yount! Check his stuff out [here] (https://clayyount.com) 
+I built this website with Hugo on Netlify, with the help/inspiration from [Clay Yount](https://clayyount.com) ! Check his stuff out. 

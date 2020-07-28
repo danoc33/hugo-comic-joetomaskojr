@@ -354,12 +354,14 @@ pre{
 					display:block;
 				}
 			}
-			a.twitter{
-				background-color:$twitter-color;
-				&:hover{
-					background-color:darken($twitter-color,10%);
-				}
-			}
+			/*
+			* a.twitter{
+			* 	background-color:$twitter-color;
+			*	&:hover{
+			*		background-color:darken($twitter-color,10%);
+			*	}
+			* } */
+			
 			a.instagram{
 				background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 				color:white;
@@ -367,13 +369,13 @@ pre{
 				&:hover{
 					background:black;
 				}
-			}
-			a.facebook{
-				background-color:$facebook-color;
-				&:hover{
-					background-color:darken($facebook-color,10%);
-				}
-			}
+			/* }
+			* a.facebook{
+			*	background-color:$facebook-color;
+			*	&:hover{
+			*		background-color:darken($facebook-color,10%);
+			*	}
+			* } */
 			a.rss{
 				background-color:$rss-color;
 				&:hover{

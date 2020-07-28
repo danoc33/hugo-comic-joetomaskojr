@@ -3,26 +3,8 @@ title: About
 ---
 ## ABOUT ME
 
-I'm a web designer/developer and comic artist. I've been making webcomics since 2000 when I started a strip for my university newspaper, and I've been developing websites since I realized I needed a place to put those comics. I've since made a career out of one of these skills, I'll let you guess which one.
-
-## ABOUT GHOSTCAT COMICS
- 
-Named after my internet handle (which ironically was named after an old comic I drew), these are social media style 1-4 panel comics, and an exercise in restraint.
-
-[Read the latest Ghostcat comic](/ghostcat-comics)
-
-## ABOUT HAMLET'S DANISH
-
-These are my longer format comics that play out more like short comedy sketches. They updates when I get an idea for a comic that needs more room to fully flesh out.
-
-[Read the latest Hamlet's Danish](/hamlets-danish)
-
-## ABOUT ROB AND ELLIOT
-
-A comic my brother, [Hampton](http://hamptonyount.com/) and I worked on from 2004-2012. It follows the exploits of two guys, but I forget their names. Hampton wrote it and I drew it.
-
-[Read the archives](/rae-comic)
+I'm a normal dude by day but also an aspiring artist by night. I've read a lot of comics/manga in these past few years an thought I'd give it a shot.  I started out as a more traditional artist with pencils/charcoals, but with my recent purchase of an iPad and Apple Pen digital art is even easier!  I really want to grow and see what type of stories I can tell and host them on here so maybe one person gets the joy out of reading them.
 
 ## ABOUT THE WEBSITE
 
-I built this website with Hugo on Netlify
+I built this website with Hugo on Netlify, with the help/inspiration from Clay Yount! Check his stuff out [here] (https://clayyount.com) 

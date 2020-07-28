@@ -2,4 +2,4 @@
 title: Contact Me
 contact_entries: []
 ---
-Fill out the form below to send me an email, and I'll get back to you as soon as I can.
+With the below information, I'll get an email and try to get back to you ASAP!

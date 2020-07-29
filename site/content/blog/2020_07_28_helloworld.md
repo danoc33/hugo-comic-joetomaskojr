@@ -2,7 +2,7 @@
 title: 'Hello Internet!'
 date: Tue, 28 Jul 2020 19:40:06 +0000
 draft: false
-image: C:\hugo-comic-JET\hugo-comic-joetomaskojr\site\content\img\JET-Black-BlackDots.png
+image: /img/JET-Black-BlackDots.png
 ---
 
 Yo! Welcome to my no pressure hobby that will be updated when I feel like it!  I'm going to be on the daily editing this and hopefully updating this with artwork, widgets, and things to show you what I've been up to as well as the life I live.

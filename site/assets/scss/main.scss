@@ -10,7 +10,7 @@ $instagram-color:#f56040;
 html{
 	padding:0px;
 	margin:0px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Kanit', sans-serif;
 	background:desaturate(adjust-hue(darken($link-color,10%), 20),60%);
 	background-attachment: fixed;
 	padding-top:4rem;
@@ -18,7 +18,7 @@ html{
 	max-width: 100%;
 }
 h1,h2,h3,h4{
-	font-family: 'Teko', sans-serif;
+	font-family: 'Orbitron', sans-serif;
 	text-transform: uppercase;
 	line-height: .8em;
 }

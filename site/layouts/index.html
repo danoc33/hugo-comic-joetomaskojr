@@ -19,20 +19,21 @@
         {{ end }}
         </a>
       {{ end }}
-      <div class="text-center" style="color:white;line-height:30px;"><a href="https://instagram.com/averagejoetomasko/" target="_blank" class="btn"> Follow on <span href="http://instagram.com/ghostcat" target="_blank" class="" style="color:white;width:30px;height:30px;line-height:30px;font-size:18px;display:inline-block;background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);border-radius:3px;"><i class="fab fa-lg fa-instagram"></i></span></a></div>
+      <div class="text-center" style="color:white;line-height:30px;"><a href="http://instagram.com/ghostcat" target="_blank" class="btn"> Follow on <span href="http://instagram.com/ghostcat" target="_blank" class="" style="color:white;width:30px;height:30px;line-height:30px;font-size:18px;display:inline-block;background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);border-radius:3px;"><i class="fab fa-lg fa-instagram"></i></span></a></div>
 	{{ end }}
     </article>
 
 </header>
 
 <main>
+
+
 	<div class="content">
-	<h2>Search Blog</h2>
-    {{ partial "search" . }}
 	<h2 class="latest-title">Latest Blog Posts</h2>
 	{{ with .Site.GetPage "/blog" }}
 	{{ partial "blog-list" . }}
 	{{ end }}
 	</div>
 </main>
+{{ partial "blog-sidebar" . }}
 {{ end }}
